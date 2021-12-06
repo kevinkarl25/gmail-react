@@ -83,18 +83,180 @@ function EmailList() {
             time={new Date(timestamp?.seconds * 1000).toUTCString()}
           />
         ))}
-        {/* <EmailRow
-          title="Twitch"
-          subject="Hey fellow streamer!!!"
-          description="This is a test"
-          time="10pm"
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
         />
         <EmailRow
-          title="Twitch"
-          subject="Hey fellow streamer!!!"
-          description="This is a test. This is a test. This is a test"
-          time="10pm"
-        /> */}
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
+        <EmailRow
+          title="amboners@gmail.com"
+          subject="Hey brotherhood, Let's talk!!"
+          description="This is a test message. It should overflow the text to the right because I am typing a lot of characters. Please overflow."
+          time="Sat, 04 Dec 2021 09:24:54 GMT"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .mail {
   flex: 1;
   background-color: whitesmoke;
+  overflow: scroll;
 }
 
 .mail__tools {
