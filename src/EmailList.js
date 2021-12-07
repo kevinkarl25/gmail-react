@@ -36,40 +36,42 @@ function EmailList() {
 
   return (
     <div className="emailList">
-      <div className="emailList__settings">
-        <div className="emailList__settingsLeft">
-          <Checkbox />
-          <IconButton>
-            <ArrowDropDownIcon />
-          </IconButton>
-          <IconButton>
-            <RedoIcon />
-          </IconButton>
-          <IconButton>
-            <MoreVertIcon />
-          </IconButton>
+      <div className="emailList__sticky">
+        <div className="emailList__settings">
+          <div className="emailList__settingsLeft">
+            <Checkbox />
+            <IconButton>
+              <ArrowDropDownIcon />
+            </IconButton>
+            <IconButton>
+              <RedoIcon />
+            </IconButton>
+            <IconButton>
+              <MoreVertIcon />
+            </IconButton>
+          </div>
+
+          <div className="emailList__settingsRight">
+            <IconButton>
+              <ChevronLeftIcon />
+            </IconButton>
+            <IconButton>
+              <ChevronRightIcon />
+            </IconButton>
+            <IconButton>
+              <KeyboardHideIcon />
+            </IconButton>
+            <IconButton>
+              <SettingsIcon />
+            </IconButton>
+          </div>
         </div>
 
-        <div className="emailList__settingsRight">
-          <IconButton>
-            <ChevronLeftIcon />
-          </IconButton>
-          <IconButton>
-            <ChevronRightIcon />
-          </IconButton>
-          <IconButton>
-            <KeyboardHideIcon />
-          </IconButton>
-          <IconButton>
-            <SettingsIcon />
-          </IconButton>
+        <div className="emailList__sections">
+          <Section Icon={InboxIcon} title="Primary" color="red" selected />
+          <Section Icon={PeopleIcon} title="Social" color="#1A73E8" />
+          <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
         </div>
-      </div>
-
-      <div className="emailList__sections">
-        <Section Icon={InboxIcon} title="Primary" color="red" selected />
-        <Section Icon={PeopleIcon} title="Social" color="#1A73E8" />
-        <Section Icon={LocalOfferIcon} title="Promotions" color="green" />
       </div>
 
       <div className="emailList__list">
