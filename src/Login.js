@@ -31,6 +31,9 @@ function Login() {
           src="https://static.dezeen.com/uploads/2020/10/gmail-google-logo-rebrand-workspace-design_dezeen_2364_col_0.jpg"
           alt=""
         />
+        <p>
+          This is not a REAL app, it is built for portfolio purposes only! ;)
+        </p>
         <Button variant="contained" color="primary" onClick={signIn}>
           Login
         </Button>

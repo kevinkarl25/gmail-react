@@ -14,3 +14,8 @@
   object-fit: contain; /*retains aspect ratio*/
   height: 200px;
 }
+
+.login__container > p {
+  font-style: italic;
+  padding-bottom: 30px;
+}
