@@ -18,6 +18,7 @@
   background-color: #fcecec;
   color: #c04b37;
   font-weight: 800 !important;
+  font-size: 12px;
 }
 
 .sidebarOption > .MuiSvgIcon-root {
@@ -27,7 +28,7 @@
 .sidebarOption > h3 {
   flex: 1;
   margin-left: 10px;
-  font-size: 14x;
+  font-size: 12px;
   font-weight: 400;
 }
 

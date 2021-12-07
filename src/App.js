@@ -53,8 +53,9 @@ function App() {
               <Route path="mail" element={<Mail />} />
               <Route path="/" element={<EmailList />} />
             </Routes>
-            {sendMessageIs0pen && <SendMail />}
           </div>
+
+          {sendMessageIs0pen && <SendMail />}
         </div>
       )}
     </Router>
