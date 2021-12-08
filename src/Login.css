@@ -17,5 +17,6 @@
 
 .login__container > p {
   font-style: italic;
+  text-align: center;
   padding-bottom: 30px;
 }
